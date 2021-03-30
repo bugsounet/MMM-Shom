@@ -38,6 +38,8 @@ npm install
 
 ## How get the `scriptURL`
 
+Connect to [SHOM](https://maree.shom.fr) website
+
 ### English
 * Select `Generate harbor widget`
 * Search your `Harbor name`
