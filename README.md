@@ -63,3 +63,12 @@ scriptURL va etre dans ce cas: `"https://services.data.shom.fr/hdm/vignette/peti
 
 Il suffit donc de le reporter dans la configuration du module
 `scriptURL= "https://services.data.shom.fr/hdm/vignette/petite/BREST?locale=fr",`
+
+## Donate
+[Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TTHRH94Y4KL36&source=url), if you love this module !
+
+## Support on [The 4th MagicMirror modules](http://forum.bugsounet.fr)
+
+## Thanks
+* French Facebook Group: [Entraide Magic Mirror Raspberry Pi](https://www.facebook.com/groups/2832574870153883)
+* Thanks for this idea `@Jo Roco` !
