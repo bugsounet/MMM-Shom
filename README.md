@@ -13,6 +13,7 @@ To install this module, try this command:
 ```
 cd ~/MagicMirror/modules/
 git clone https://github.com/bugsounet/MMM-Shom
+cd MMM-Shom
 npm install
 ```
 
