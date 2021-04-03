@@ -26,7 +26,7 @@ npm install
   configDeepMerge: true,
   config: {
     debug: false,
-    scriptURL= "https://services.data.shom.fr/hdm/vignette/grande/BREST?locale=fr",
+    scriptURL: "https://services.data.shom.fr/hdm/vignette/grande/BREST?locale=fr",
     update: 1000 * 60 * 60
   }
 },
@@ -50,7 +50,7 @@ Connect to [SHOM](https://maree.shom.fr) website
 So, scriptURL will be: `"https://services.data.shom.fr/hdm/vignette/petite/BREST?locale=en"`<br>
 
 Just report it in your module configuration
-`scriptURL= "https://services.data.shom.fr/hdm/vignette/petite/BREST?locale=en",`
+`scriptURL: "https://services.data.shom.fr/hdm/vignette/petite/BREST?locale=en",`
 
 ### Français
 * Selectionnez `Générer une vignette`
@@ -62,7 +62,7 @@ Just report it in your module configuration
 scriptURL va etre dans ce cas: `"https://services.data.shom.fr/hdm/vignette/petite/BREST?locale=fr"`<br>
 
 Il suffit donc de le reporter dans la configuration du module
-`scriptURL= "https://services.data.shom.fr/hdm/vignette/petite/BREST?locale=fr",`
+`scriptURL: "https://services.data.shom.fr/hdm/vignette/petite/BREST?locale=fr",`
 
 ## Donate
 [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TTHRH94Y4KL36&source=url), if you love this module !
