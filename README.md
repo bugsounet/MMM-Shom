@@ -45,24 +45,28 @@ Connect to [SHOM](https://maree.shom.fr) website
 * Search your `Harbor name`
 * Select `Small widget` or `Big widget`
 * Generate the widget
-* Shom website will purpose a part of code like this:
+* Shom website will purpose a part of code like this:<br>
 `<script src="https://services.data.shom.fr/hdm/vignette/petite/BREST?locale=en"></script>`<br>
 So, scriptURL will be: `"https://services.data.shom.fr/hdm/vignette/petite/BREST?locale=en"`<br>
 
 Just report it in your module configuration
-`scriptURL: "https://services.data.shom.fr/hdm/vignette/petite/BREST?locale=en",`
+```js
+scriptURL: "https://services.data.shom.fr/hdm/vignette/petite/BREST?locale=en",
+```
 
 ### Français
 * Selectionnez `Générer une vignette`
 * Recherchez `Le Nom du port`
 * Selectionnez `Petite vignette` ou `Grande vignette`
 * Générez une vignette
-* le site de shom va vous proposer une partie de code comme ceci:
+* le site de shom va vous proposer une partie de code comme ceci:<br>
 `<script src="https://services.data.shom.fr/hdm/vignette/petite/BREST?locale=fr"></script>`<br>
 scriptURL va etre dans ce cas: `"https://services.data.shom.fr/hdm/vignette/petite/BREST?locale=fr"`<br>
 
 Il suffit donc de le reporter dans la configuration du module
-`scriptURL: "https://services.data.shom.fr/hdm/vignette/petite/BREST?locale=fr",`
+```js
+scriptURL: "https://services.data.shom.fr/hdm/vignette/petite/BREST?locale=fr",
+```
 
 ## Donate
 [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TTHRH94Y4KL36&source=url), if you love this module !
