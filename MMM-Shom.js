@@ -31,7 +31,7 @@ Module.register("MMM-Shom", {
         postscribe("#SHOM", "<script src=" + this.config.scriptURL + "></script>")
         break
       case "UPDATE":
-        this.hide(500, () => this.shom())
+        this.shom()
         break
     }
   },
@@ -40,7 +40,6 @@ Module.register("MMM-Shom", {
     var shom = document.getElementById("SHOM")
     shom.innerHTML = ""
     postscribe("#SHOM", "<script src=" + this.config.scriptURL + "></script>")
-    this.show(500)
   },
 
   getScripts: function () {
