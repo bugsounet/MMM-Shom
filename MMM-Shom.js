@@ -43,7 +43,7 @@ Module.register("MMM-Shom", {
   },
 
   getScripts: function () {
-    return [ "postscribe.min.js" ]
+    return [ this.file("node_modules/postscribe/dist/postscribe.js") ]
   },
 
   getDom: function () {
