@@ -5,7 +5,8 @@
  * MIT Licensed.
  */
 
-const NodeHelper = require("node_helper")
+const NodeHelper = require("node_helper");
+var log = (...args) => { /* do nothing */ };
 
 module.exports = NodeHelper.create({
   start: function () {
