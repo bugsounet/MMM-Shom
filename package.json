@@ -1,6 +1,6 @@
 {
   "name": "MMM-Shom",
-  "version": "1.0.3",
+  "version": "0.0.0+EOL",
   "description": "Display Shom Widget",
   "main": "MMM-Shom.js",
   "repository": {
@@ -12,8 +12,5 @@
   "bugs": {
     "url": "https://forum.bugsounet.fr"
   },
-  "homepage": "https://github.com/bugsounet/MMM-Shom",
-  "dependencies": {
-    "postscribe": "^2.0.8"
-  }
+  "homepage": "https://github.com/bugsounet/MMM-Shom"
 }
